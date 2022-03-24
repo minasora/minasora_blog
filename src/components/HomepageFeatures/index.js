@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Who am I？',
+    Svg: require('@site/static/img/skip-back.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        华中科技大学 管理学创新实验班 信息管理与信息系统方向。前商汤科技算法实习生。间歇性踌躇满志，持续性混吃等死。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'What I DO？',
+    Svg: require('@site/static/img/logo.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        热爱galgame与ACG文化。编程爱好者。喜欢桌游以及P社。偶尔看看马经。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Where I GO？',
+    Svg: require('@site/static/img/skip-forward.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        日本东北大学研究生预订。计算机视觉方向。人生目标是享受过程以及躺平摆烂。
       </>
     ),
   },

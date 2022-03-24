@@ -3,6 +3,9 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  font-family: "Microsoft YaHei UI Light", fangsong;
+  white-space: pre-line;
+  text-align: left;
 }
 
 .featureSvg {

@@ -10,7 +10,7 @@ const mermaid = require('mdx-mermaid')
 const config = {
   title: 'minasora自留地',
   tagline: 'The solitude，where we are least alone.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://minasora.cn',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,16 +27,15 @@ const config = {
           remarkPlugins: [math,mermaid],
           rehypePlugins: [katex],
           sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: undefined,
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           remarkPlugins: [math,mermaid],
           rehypePlugins: [katex],
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: undefined,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,7 +58,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Doc',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/about', label: 'About', position: 'left'},
@@ -77,7 +76,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Doc',
                 to: '/docs/intro',
               },
             ],
